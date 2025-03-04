@@ -31,7 +31,7 @@ const Projetos = () => {
               incrível ver meu código funcionando e sendo escolhido para jogarmos juntos.
               Cada novo projeto me fascina, principalmente depois de superar desafios e erros.
             </p>
-            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/JogoDaVelha" target="_blank">
+            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/JogoDaVelha" target="_blank" rel="noopener noreferrer">
               Ver Projeto no GitHub
             </a></p>
 
@@ -46,7 +46,7 @@ const Projetos = () => {
               Ideal para investidores que desejam monitorar suas carteiras e 
               tomar decisões estratégicas.
             </p>
-            <p>🔗 <a href="https://github.com/plasmus777/Projeto_Acoes_Adatech" target="_blank">
+            <p>🔗 <a href="https://github.com/plasmus777/Projeto_Acoes_Adatech" target="_blank" rel="noopener noreferrer">
               Ver Projeto no GitHub
             </a></p>
 
@@ -58,13 +58,13 @@ const Projetos = () => {
               Este é um projeto em desenvolvimento, trazendo uma solução prática para mobilidade urbana. 
               Um belo projeto Java que continua evoluindo! 🚗💨
             </p>
-            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/CarrosParaODiaDia" target="_blank">
+            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/CarrosParaODiaDia" target="_blank" rel="noopener noreferrer">
               Ver Projeto no GitHub
             </a></p>
 
             <h4>AlugaCarrosMS</h4>
             <p>
-              Este projeto é uma evolução do **Carros para o Dia a Dia**. Durante o desenvolvimento, 
+              Este projeto é uma evolução do <strong>Carros para o Dia a Dia</strong>. Durante o desenvolvimento, 
               percebi como a abordagem de microsserviços torna o sistema mais organizado, modular e eficiente. 
               Então, decidi dividir o projeto original em microsserviços para praticar essa arquitetura.  
             </p>
@@ -78,7 +78,7 @@ const Projetos = () => {
             <p>
               Essa prática me permite entender melhor as vantagens e desafios de cada abordagem, tornando-me um programador mais versátil! 🚀
             </p>
-            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/AlugaCarrosMS" target="_blank">
+            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/AlugaCarrosMS" target="_blank" rel="noopener noreferrer">
               Ver Projeto no GitHub
             </a></p>
 
@@ -90,7 +90,7 @@ const Projetos = () => {
               o sistema está sendo desenvolvido para oferecer uma solução eficiente para empresas 
               que precisam de um RH digitalizado e ágil. 🚀
             </p>
-            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/Rh" target="_blank">
+            <p>🔗 <a href="https://github.com/jonathaneduardodeoliveira/Rh" target="_blank" rel="noopener noreferrer">
               Ver Projeto no GitHub
             </a></p>
           </div>
@@ -104,7 +104,7 @@ const Projetos = () => {
         {ativo === "react" && (
           <div className="projeto-detalhes">
             <p>Meus projetos React serão adicionados aqui. Será atualizado semanalmente, estou organizando e melhorando os projetos.</p>
-            </div>
+          </div>
         )}
       </div>
 
@@ -114,8 +114,67 @@ const Projetos = () => {
         </h3>
         {ativo === "web" && (
           <div className="projeto-detalhes">
+            <>
             <p>Meus projetos Web serão adicionados aqui. Será atualizado semanalmente, estou organizando e melhorando os projetos.</p>
-            </div>
+            <h4>🌤️ Consulta do Tempo</h4>
+            <p>
+              Esse foi meu primeiro projeto lidando com APIs durante um curso de fundamentos da web. 
+              Foi uma experiência muito legal, e eu adorei compartilhar com meus amigos! 😊  
+            </p>
+            <p>
+              🔗 <a href="https://github.com/jonathaneduardodeoliveira/ComoTempoTAHoje" target="_blank">
+                Repositório no GitHub
+              </a>  
+            </p>
+            <p>
+              🌍 <a href="https://jonathaneduardodeoliveira.github.io/ComoTempoTAHoje/" target="_blank">
+                Consulte o tempo hoje para o seu esporte favorito!
+              </a>
+            </p>
+
+            <h4>💵 Conversor de Dólar</h4>
+            <p>
+              Esse projeto surgiu de uma conversa em um grupo de investimentos do qual participo. 
+              Muitas páginas oferecem consulta do dólar, mas são cheias de informações desnecessárias, 
+              dificultando o acesso ao que realmente importa.  
+            </p>
+            <p>
+              Por isso, criei essa ferramenta simples e objetiva para consultar a cotação do dólar 
+              e converter para real de forma rápida!  
+            </p>
+            <p>
+              🔗 <a href="https://github.com/jonathaneduardodeoliveira/dolar" target="_blank">
+                Repositório no GitHub
+              </a>  
+            </p>
+            <p>
+              💰 <a href="https://jonathaneduardodeoliveira.github.io/dolar/" target="_blank">
+                Consulte a cotação do dólar e converta para real!
+              </a>
+            </p>
+
+            <h4>📝 Prova com Acessibilidade</h4>
+            <p>
+              📚 Esse projeto tem um significado especial para mim! Foi minha primeira apresentação 
+              para uma instituição de ensino, com o objetivo de solicitar melhorias na acessibilidade.  
+            </p>
+            <p>
+              A prova original da instituição era totalmente inacessível para usuários de leitores de tela. 
+              Então, decidi criar essa versão acessível como exemplo de como a prova poderia ser feita 
+              de maneira mais inclusiva. 😊  
+            </p>
+            <p>
+              🔗 <a href="https://github.com/jonathaneduardodeoliveira/Prova" target="_blank">
+                Repositório no GitHub
+              </a>  
+            </p>
+            <p>
+              ✅ <a href="https://jonathaneduardodeoliveira.github.io/Prova/" target="_blank">
+                Faça a prova acessível aqui!
+              </a>
+            </p>
+            </>
+          </div>
         )}
       </div>
 
